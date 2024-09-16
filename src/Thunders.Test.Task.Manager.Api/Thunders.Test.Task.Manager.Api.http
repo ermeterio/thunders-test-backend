@@ -1,0 +1,6 @@
+@Thunders.Test.Task.Manager.Api__HostAddress = http://localhost:5194
+
+GET {{Thunders.Test.Task.Manager.Api__HostAddress}}/taskmanager/
+Accept: application/json
+
+###

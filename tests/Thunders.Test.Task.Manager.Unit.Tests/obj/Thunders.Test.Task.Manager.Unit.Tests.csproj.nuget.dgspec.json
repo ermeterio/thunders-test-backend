@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\tests\\Thunders.Test.Task.Manager.Unit.Tests\\Thunders.Test.Task.Manager.Unit.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Application\\Thunders.Test.Task.Manager.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Application\\Thunders.Test.Task.Manager.Application.csproj",
+        "projectName": "Thunders.Test.Task.Manager.Application",
+        "projectPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Application\\Thunders.Test.Task.Manager.Application.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\Thunders.Test.Task.Manager.Domain.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\Thunders.Test.Task.Manager.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\Thunders.Test.Task.Manager.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\Thunders.Test.Task.Manager.Domain.csproj",
+        "projectName": "Thunders.Test.Task.Manager.Domain",
+        "projectPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\Thunders.Test.Task.Manager.Domain.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\tests\\Thunders.Test.Task.Manager.Unit.Tests\\Thunders.Test.Task.Manager.Unit.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\tests\\Thunders.Test.Task.Manager.Unit.Tests\\Thunders.Test.Task.Manager.Unit.Tests.csproj",
+        "projectName": "Thunders.Test.Task.Manager.Unit.Tests",
+        "projectPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\tests\\Thunders.Test.Task.Manager.Unit.Tests\\Thunders.Test.Task.Manager.Unit.Tests.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\tests\\Thunders.Test.Task.Manager.Unit.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Application\\Thunders.Test.Task.Manager.Application.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Application\\Thunders.Test.Task.Manager.Application.csproj"
+              },
+              "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\Thunders.Test.Task.Manager.Domain.csproj": {
+                "projectPath": "C:\\Desenvolvimento\\Thunders.Test.Task.Manager.Api\\src\\Thunders.Test.Task.Manager.Domain\\Thunders.Test.Task.Manager.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.1, )"
+            },
+            "Faker": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

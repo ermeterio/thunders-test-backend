@@ -1,0 +1,9 @@
+services:
+  thunders_task_manager_api:
+    container_name: thunders_task_manager_api
+    image: ermeterio/thunders_task_manager_api:1.1.0
+    ports:
+      - "8080:8080"  
+      - "8081:8081"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
